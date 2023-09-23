@@ -1,0 +1,9 @@
+:root {
+  --color-primary: #e3b748;
+  --color-white: #ffffff;
+  --color-subtitle: #585858;
+}
+
+* {
+  box-sizing: border-box;
+}
