@@ -1,0 +1,18 @@
+.accordionWrapper{
+    .accordionSummary {
+       
+        background-color: var(--color-black);
+        color: var(--color-white);
+    }
+
+    .accordionDetails{
+        background-color: var(--color-black);
+        color: var(--color-subtitle);
+    }
+}
+
+.addIcon {
+    padding: 4px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
