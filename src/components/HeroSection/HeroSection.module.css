@@ -1,0 +1,27 @@
+
+.heroSectionWrapper{
+    ::placeholder{
+        color: var(--color-subtitle) !important;
+    }
+}
+
+.heroImageSection{
+    position: relative;
+    background-image: url('../../assets/heroBackground.svg');
+    border-radius: 43px ;
+    background-repeat: no-repeat;
+}
+
+.heroImage{
+    width: 443px;
+    height: 467;
+}
+
+.heroImage1{
+    top: -76px;
+    right: 0;
+    position: absolute;
+    width: 443px;
+    height: 467;
+    z-index: 10;
+}
