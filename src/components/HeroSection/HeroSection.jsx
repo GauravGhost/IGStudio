@@ -50,8 +50,8 @@ const HeroSection = () => {
                         />
                     </Box>
                     <Box className={styles.heroImageSection}>
-                        <img className={styles.heroImage} src={heroImage1} />
-                        <img className={styles.heroImage1} src={heroImage} />
+                        <img className={styles.heroImage} src={heroImage} />
+                        <img className={styles.heroImage1} src={heroImage1} />
                     </Box>
                 </Box>
             </Container>
