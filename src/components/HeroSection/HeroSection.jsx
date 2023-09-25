@@ -1,6 +1,6 @@
 import { Box, Container, InputAdornment, TextField, Typography } from "@mui/material"
-import heroImage from '../../assets/heroImage1.png';
-import heroImage1 from '../../assets/heroImage.png';
+import heroImage from '../../assets/heroImage.png';
+import heroImage1 from '../../assets/heroImage1.png';
 import styles from './HeroSection.module.css';
 import MailIcon from '@mui/icons-material/Mail';
 const HeroSection = () => {
@@ -50,8 +50,8 @@ const HeroSection = () => {
                         />
                     </Box>
                     <Box className={styles.heroImageSection}>
-                        <img className={styles.heroImage} src={heroImage} />
-                        <img className={styles.heroImage1} src={heroImage1} />
+                        <img className={styles.heroImage} src={heroImage1} />
+                        <img className={styles.heroImage1} src={heroImage} />
                     </Box>
                 </Box>
             </Container>
