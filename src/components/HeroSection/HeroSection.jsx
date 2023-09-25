@@ -7,7 +7,16 @@ const HeroSection = () => {
     return (
         <div className={styles.heroSectionWrapper}>
             <Container maxWidth="lg">
-                <Box sx={{display: 'flex', flexDirection: { md: 'row', xs: 'column' }, justifyContent: 'center', alignItems: 'center', height: '93vh', width: '100%', gap: 17 }}>
+                <Box sx={{
+                    display: 'flex',
+                    flexDirection: { md: 'row', xs: 'column' },
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    height: '93vh',
+                    width: '100%',
+                    gap: 17
+                }}
+                >
                     <Box>
                         <Typography variant="h3" sx={{ fontWeight: '500', fontSize: '66px' }}>
                             You don’t have to
@@ -19,7 +28,7 @@ const HeroSection = () => {
                             Lorem ipsum dolor sit amet consectetur adipiscing elit blandit, curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget, hac massa gravida arcu interdum proin curae.
                         </Typography>
                         <TextField
-                            
+
                             variant="standard"
                             size="medium"
                             InputProps={{
@@ -32,7 +41,7 @@ const HeroSection = () => {
                                 ),
                                 endAdornment: (
                                     <InputAdornment position="end">
-                                        <Box color="text.black" sx={{bgcolor: 'text.primary', width:'137px', height: '62px', display: 'flex', alignItems: 'center', justifyContent:'center', borderRadius: '43px', marginRight: '7px', cursor: 'pointer'}}>{'Let\'s Talk'}
+                                        <Box color="text.black" sx={{ bgcolor: 'text.primary', width: '137px', height: '62px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '43px', marginRight: '7px', cursor: 'pointer' }}>{'Let\'s Talk'}
                                         </Box>
                                     </InputAdornment>),
                             }}
