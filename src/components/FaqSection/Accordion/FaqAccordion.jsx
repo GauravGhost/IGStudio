@@ -13,7 +13,6 @@ export default function FaqAccordion({ data }) {
         <AccordionSummary
           className={styles.accordionSummary}
           expandIcon={<AddIcon className={styles.addIcon} />}
-          aria-controls="panel1a-content"
           id="panel1a-header"
         >
           <Typography>{data.summary}</Typography>

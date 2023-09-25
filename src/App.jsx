@@ -6,6 +6,8 @@ import LawSection from './components/LawSection/LawSection'
 import TestimonialSection from './components/TestimonialSection/TestimonialSection'
 import OurTeamSection from './components/OurTeamSection/OurTeamSection'
 import FaqSection from './components/FaqSection/FaqSection'
+import Newsletter from './components/Newsletter/Newsletter'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <TestimonialSection />
       <OurTeamSection />
       <FaqSection />
+      <Newsletter />
+      <Footer />
     </>
   )
 }

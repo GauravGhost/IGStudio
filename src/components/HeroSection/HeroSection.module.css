@@ -1,5 +1,7 @@
 
 .heroSectionWrapper{
+    background-color: var(--color-black);
+    margin-bottom: 100px;
     ::placeholder{
         color: var(--color-subtitle) !important;
     }

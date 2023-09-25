@@ -8,7 +8,7 @@ import styles from './OurTeamCard.module.css';
 const OurTeamCard = ({ data }) => {
     return (
         <Box className={styles.cardWrapper} >
-            <Card sx={{ maxWidth: 345, bgcolor: "transparent", color: 'text.white', borderRadius: '14px', p: '20px', display: 'flex', gap:2, alignItems: 'center' }}>
+            <Card sx={{ maxWidth: 345, bgcolor: "transparent", color: 'text.white', borderRadius: '14px', p: '20px', display: 'flex', gap:2, alignItems: 'center', boxShadow:'none' }}>
                 <Box sx={{display: 'inline', }}>
                     <Avatar sx={{width: '100%', height:'100%'}} alt={data.name} src={data.avatar} />
                 </Box>

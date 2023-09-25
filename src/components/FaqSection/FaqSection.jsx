@@ -27,7 +27,7 @@ const faqlist = [
 
 const FaqSection = () => {
     return (
-        <div>
+        <div className={styles.faqWrapper}>
             <Container maxWidth="lg">
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', gap: 20 }}>
                     <Box sx={{ width: '800px' }}>
@@ -43,7 +43,7 @@ const FaqSection = () => {
                         {
                             faqlist.map((item) => {
                                 return (
-                                    <div className={styles.faqWrapper} key={item.key}>
+                                    <div className={styles.accordionWrapper} key={item.key}>
                                         <FaqAccordion data={item} />
                                     </div>
                                 )

@@ -7,7 +7,7 @@ const HeroSection = () => {
     return (
         <div className={styles.heroSectionWrapper}>
             <Container maxWidth="lg">
-                <Box sx={{display: 'flex', flexDirection: { md: 'row', xs: 'column' }, justifyContent: 'center', alignItems: 'center', height: '100vh', width: '100%', gap: 17 }}>
+                <Box sx={{display: 'flex', flexDirection: { md: 'row', xs: 'column' }, justifyContent: 'center', alignItems: 'center', height: '93vh', width: '100%', gap: 17 }}>
                     <Box>
                         <Typography variant="h3" sx={{ fontWeight: '500', fontSize: '66px' }}>
                             You don’t have to
